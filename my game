@@ -1,0 +1,77 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour {
+
+    private Rigidbody2D player;
+
+    public float MoveSpeed;
+    public float JumpSpeed;
+
+    //在角色下添加一个空物体
+   using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour {
+
+    private Rigidbody2D player;
+
+    public float MoveSpeed;
+    public float JumpSpeed;
+
+    //在角色下添加一个空物体
+    //设置一个跳跃监测点
+    public Transform CheckPoint;
+    //设置一个跳跃监测半径
+    public float CheckRadius;
+    //设置一个跳跃监测层---角色与地面的检测
+    public LayerMask WhatIsGround;
+
+    //角色默认是否着地--true
+    public bool isGround;
+
+    private Animator Anim;
+
+
+    void Start () {
+
+        player = gameObject.GetComponent<Rigidbody2D>();
+        Anim = gameObject.GetComponent<Animator>();
+    }
+    
+    // Update is called once per frame
+    void Update () {
+        //
+        isGround = Physics2D.OverlapCircle(CheckPoint.position, CheckRadius, WhatIsGround);
+
+
+        //------------------Input.GetAxisRaw没有小数值，只有整数，不会产生缓动------------------
+        //角色水平移动
+        //按住D键，判断如果大于0，则向右开始移动
+        if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            player.velocity = new Vector2(MoveSpeed, player.velocity.y);
+        }
+        //角色水平移动
+        //按住A键，判断如果小于0，则向左开始移动
+        else if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            player.velocity = new Vector2(-MoveSpeed, player.velocity.y);
+        }
+        else
+        //角色水平移动
+        //松开按键，判断如果等于0，则停止移动
+        {
+            player.velocity = new Vector2(0, player.velocity.y);
+        }
+
+        //角色按下空格键实现跳跃
+        if (Input.GetButtonDown("Jump")&&isGround)
+        {
+
+            player.velocity = new Vector2(player.velocity.x,JumpSpeed);
+        }
+    }
+}
