@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T12:00:14.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="pxznp9uxj-n0HV709FWM" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T12:04:34.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="r6K_zcqnp-JUU-kbpcJW" version="24.6.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1009" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,6 +261,29 @@
         <mxCell id="ckciVchae2wgMNy-nu8Z-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;align=center;" vertex="1" parent="ckciVchae2wgMNy-nu8Z-73">
           <mxGeometry x="45" y="100" width="10" height="350" as="geometry" />
         </mxCell>
+        <mxCell id="ckciVchae2wgMNy-nu8Z-106" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="ckciVchae2wgMNy-nu8Z-73" source="ckciVchae2wgMNy-nu8Z-105" target="ckciVchae2wgMNy-nu8Z-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckciVchae2wgMNy-nu8Z-107" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="ckciVchae2wgMNy-nu8Z-73" source="ckciVchae2wgMNy-nu8Z-105" target="ckciVchae2wgMNy-nu8Z-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckciVchae2wgMNy-nu8Z-108" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ckciVchae2wgMNy-nu8Z-73" source="ckciVchae2wgMNy-nu8Z-105" target="ckciVchae2wgMNy-nu8Z-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="340" />
+              <mxPoint y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckciVchae2wgMNy-nu8Z-109" value="填充视频内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="ckciVchae2wgMNy-nu8Z-108">
+          <mxGeometry x="-0.0656" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckciVchae2wgMNy-nu8Z-105" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="ckciVchae2wgMNy-nu8Z-73">
+          <mxGeometry x="40" y="340" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="ckciVchae2wgMNy-nu8Z-78" value="浏览记录服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;align=center;" vertex="1" parent="1">
           <mxGeometry x="430" y="960" width="100" height="520" as="geometry" />
         </mxCell>
@@ -361,7 +384,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ckciVchae2wgMNy-nu8Z-101" value="返回视频列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="ckciVchae2wgMNy-nu8Z-100">
+        <mxCell id="ckciVchae2wgMNy-nu8Z-101" value="返回视频Feed流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="ckciVchae2wgMNy-nu8Z-100">
           <mxGeometry x="-0.0913" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
