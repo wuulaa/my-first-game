@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T06:09:13.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="VVoM6AAp8G9FbwZArjB9" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T06:24:10.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="eRCncqVycwrdjXmo47m7" version="24.6.4" type="github">
   <diagram name="第 1 页" id="fEKI30rLMy2NeL7lf-gq">
-    <mxGraphModel dx="1542" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2053" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,6 +176,11 @@
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-53" target="zn_wXmEY_aCZp9n0cFVr-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zn_wXmEY_aCZp9n0cFVr-144" value="去重" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zn_wXmEY_aCZp9n0cFVr-52">
+          <mxGeometry x="-0.1315" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-53" value="调用ViewRecord服务查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="450" y="600" width="80" height="40" as="geometry" />
         </mxCell>
@@ -246,7 +251,7 @@
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-84" value="用户浏览记录获取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="10" y="570" width="760" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zn_wXmEY_aCZp9n0cFVr-85" value="1. 创建自己的ViewRecordService&lt;div&gt;2. 实现诸如getViewRecord等方法&lt;/div&gt;&lt;div&gt;3. reviewRecord查询服务：获取key，然后获取result，并且进行处理&lt;/div&gt;&lt;div&gt;4. 在请求内容中心之前需要对浏览记录进行划分，去重处理&lt;/div&gt;&lt;div&gt;5. 具体来说，浏览记录的String实际上是由&amp;lt;Date,PoolContentId&amp;gt;组成的，在处理之后可以变成&amp;lt;Date，List&amp;lt;PoolContentId&amp;gt;&amp;gt;类型，即&amp;lt;今天， List&amp;lt;PoolContentId&amp;gt;&amp;gt;，随后向内容中心进行查询，可以转变成&amp;lt;Date, List&amp;lt;ContentInfo&amp;gt;&amp;gt;，可以很方便的包装返回前端&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;备注：&lt;/div&gt;&lt;div&gt;调用查询服务Cellar：先从请求参数中获取查询的key（userId），随后调用cellarDao.get(key)获取存储结果，一个String&lt;/div&gt;&lt;div&gt;处理查询结果：对String进行分割（暂定为“,”进行分割），分割之后是一个List&amp;lt;Date, PoolContentId&amp;gt;，随后进行去重，并且根据Date进行分组&lt;/div&gt;&lt;div&gt;生成返回体：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zn_wXmEY_aCZp9n0cFVr-85" value="1. 创建自己的ViewRecordService&lt;div&gt;2. 实现诸如getViewRecord等方法&lt;/div&gt;&lt;div&gt;3. reviewRecord查询服务：获取key，然后获取result，并且进行处理&lt;/div&gt;&lt;div&gt;4. 在请求内容中心之前需要对浏览记录进行划分，去重处理&lt;/div&gt;&lt;div&gt;5. 具体来说，浏览记录的String实际上是由&amp;lt;Date,PoolContentId&amp;gt;组成的，在处理之后可以变成&amp;lt;Date，List&amp;lt;PoolContentId&amp;gt;&amp;gt;类型，即&amp;lt;今天， List&amp;lt;PoolContentId&amp;gt;&amp;gt;，随后向内容中心进行查询，可以转变成&amp;lt;Date, List&amp;lt;ContentInfo&amp;gt;&amp;gt;，可以很方便的包装返回前端&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;备注：&lt;/div&gt;&lt;div&gt;调用查询服务Cellar：先从请求参数中获取查询的key（userId），随后调用cellarDao.get(key)获取存储结果，一个String&lt;/div&gt;&lt;div&gt;处理查询结果：对String进行分割（暂定为“,”进行分割），分割之后是一个List&amp;lt;Date_PoolContentId&amp;gt;&lt;/div&gt;&lt;div&gt;请求内容中心查询视频内容：需要先对查询结果进行去重，然后根据Date进行分组，随后按日期进行分组查询&lt;/div&gt;&lt;div&gt;过滤视频：判断视频类型，首帧和封面是否为空等条件，对视频进行过滤&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="12" y="880" width="716" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-86" target="zn_wXmEY_aCZp9n0cFVr-87">
@@ -269,7 +274,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zn_wXmEY_aCZp9n0cFVr-93" value="&amp;lt;UserId, String&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zn_wXmEY_aCZp9n0cFVr-89">
+        <mxCell id="zn_wXmEY_aCZp9n0cFVr-93" value="List&amp;lt;String&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zn_wXmEY_aCZp9n0cFVr-89">
           <mxGeometry x="0.08" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -280,7 +285,7 @@
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-92" target="zn_wXmEY_aCZp9n0cFVr-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zn_wXmEY_aCZp9n0cFVr-92" value="包装返回体" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zn_wXmEY_aCZp9n0cFVr-92" value="包装返回体" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="690" y="660" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-94" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
