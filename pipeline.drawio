@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T02:24:45.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0t810ZaXto4lszVDIcxA" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T03:06:03.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="NeSBOF0Tzx2SFNhUYlYB" version="24.6.4" type="github">
   <diagram name="第 1 页" id="fEKI30rLMy2NeL7lf-gq">
     <mxGraphModel dx="1685" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,53 +153,53 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry y="300" width="40" height="40" as="geometry" />
+          <mxGeometry x="10" y="600" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-47" target="zn_wXmEY_aCZp9n0cFVr-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-47" value="入参检验" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="90" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-49" target="zn_wXmEY_aCZp9n0cFVr-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-49" value="构建浏览记录查询请求体" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="200" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="210" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-51" target="zn_wXmEY_aCZp9n0cFVr-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-51" value="调用浏览记录服务ViewRecordService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="310" y="300" width="100" height="40" as="geometry" />
+          <mxGeometry x="320" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-53" target="zn_wXmEY_aCZp9n0cFVr-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-53" value="调用ViewRecord服务查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="440" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="450" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-55" target="zn_wXmEY_aCZp9n0cFVr-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-55" value="请求内容中心查询视频内容" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="560" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="570" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-56" target="zn_wXmEY_aCZp9n0cFVr-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-56" value="过滤视频" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="680" y="300" width="80" height="40" as="geometry" />
+          <mxGeometry x="690" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-59" target="zn_wXmEY_aCZp9n0cFVr-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-59" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry y="420" width="40" height="40" as="geometry" />
+          <mxGeometry x="10" y="720" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="440" as="targetPoint" />
+            <mxPoint x="210" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zn_wXmEY_aCZp9n0cFVr-60">
@@ -208,23 +208,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-62" value="请求参数&lt;div&gt;不为空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="80" height="40" as="geometry" />
+          <mxGeometry x="90" y="720" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-73" target="zn_wXmEY_aCZp9n0cFVr-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560.0000000000002" y="440" as="targetPoint" />
+            <mxPoint x="570.0000000000002" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-73" value="生成返回体" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="80" height="40" as="geometry" />
+          <mxGeometry x="450" y="720" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-62" target="zn_wXmEY_aCZp9n0cFVr-88">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="120" y="480" />
-              <mxPoint x="620" y="480" />
+              <mxPoint x="130" y="780" />
+              <mxPoint x="630" y="780" />
             </Array>
-            <mxPoint x="620" y="480" as="targetPoint" />
+            <mxPoint x="630" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-81" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zn_wXmEY_aCZp9n0cFVr-80">
@@ -235,8 +235,8 @@
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-53" target="zn_wXmEY_aCZp9n0cFVr-59">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="380" />
-              <mxPoint x="20" y="380" />
+              <mxPoint x="470" y="680" />
+              <mxPoint x="30" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -244,28 +244,28 @@
           <mxGeometry x="10" y="10" width="820" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-84" value="用户浏览记录获取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry y="270" width="760" height="20" as="geometry" />
+          <mxGeometry x="10" y="570" width="760" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-85" value="1. 创建自己的ViewRecordService&lt;div&gt;2. 实现诸如getViewRecord等方法&lt;/div&gt;&lt;div&gt;3. reviewRecord查询服务：获取key，然后获取result，并且进行处理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="610" width="380" height="30" as="geometry" />
+          <mxGeometry x="30" y="790" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-86" target="zn_wXmEY_aCZp9n0cFVr-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-86" value="调用查询服务&lt;div&gt;Cellar&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="200" y="420" width="80" height="40" as="geometry" />
+          <mxGeometry x="210" y="720" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-87" target="zn_wXmEY_aCZp9n0cFVr-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-87" value="处理查询结果" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="320" y="420" width="80" height="40" as="geometry" />
+          <mxGeometry x="330" y="720" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-88" target="zn_wXmEY_aCZp9n0cFVr-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="380" />
-              <mxPoint x="500" y="380" />
+              <mxPoint x="630" y="680" />
+              <mxPoint x="510" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -275,16 +275,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-88" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="420" width="40" height="40" as="geometry" />
+          <mxGeometry x="610" y="720" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zn_wXmEY_aCZp9n0cFVr-92" target="zn_wXmEY_aCZp9n0cFVr-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-92" value="包装返回体" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="680" y="360" width="80" height="40" as="geometry" />
+          <mxGeometry x="690" y="660" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zn_wXmEY_aCZp9n0cFVr-94" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="700" y="420" width="40" height="40" as="geometry" />
+          <mxGeometry x="710" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zn_wXmEY_aCZp9n0cFVr-97" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;1. 上半部分调用data服务，需要在已有函数&lt;span style=&quot;color: rgb(86, 168, 245);&quot;&gt;saveUserViewedContentIdFromReport&lt;/span&gt;中增加本次需求所需要的存储数据，并且异步请求添加&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;2. 下半部分调用viewRecord服务，需要修改内容较多，在ContentService中包装请求体，然后调用ViewRecord服务进行存储&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;3. 浏览记录的存储结构&amp;lt;userId，String&amp;gt;，其中这个String是“Date_PoolContentId”拼接而成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;4. 在存储浏览记录时，可以直接利用StringBuffer将需要新增的浏览记录追加到原始String首部，读出时按顺序读出既可以保证浏览记录按时间排序&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;5. 但是这带来一个问题：浏览记录中对于某一个特定视频可能保留多个时间点的记录？所以读取浏览记录时，需要进行去重，（k1, k2）-&amp;gt; k1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;6. 问题：由于可能有重复浏览记录，那么如何满足浏览记录存储条数的限制？即需要考虑是否有必要对用户浏览记录进行整体刷新，刷新频率，刷新时机等等。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7" y="310" width="820" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
